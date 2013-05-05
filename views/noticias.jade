@@ -1,0 +1,6 @@
+extends layout
+
+block content
+  each noticia in noticias
+    h2= noticia.nombre
+    p= noticia.descripcion

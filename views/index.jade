@@ -1,0 +1,52 @@
+extends layout
+
+block content
+  header
+    nav.row.barra-nav
+      ul.barra-ul
+        li
+          a(href="#").brand IEEE Usat
+        li
+          a(href="#") IEEE Xplore Digital Library
+        li
+          a(href="#") IEEE Standards
+        li
+          a(href="#") IEEE Spectrum
+        li
+          a(href="#") More Sites
+        li.right
+          a(href="#") Ingresar
+    div.banner
+  section
+    nav.row.barra-nav
+      ul.barra-ul
+        li
+          a(href="/") Inicio
+        li
+          a(href="/nosotros/") Nosotros
+        li
+          a(href="/publicaciones/") Publicaciones
+        li
+          a(href="/galeria/") Galeria
+        li
+          a(href="/contactanos/") Contáctanos
+        li
+          a(href="/laboral/") Oportunidad Laboral
+        li.right
+          form(action="", method="get")
+            input(type="search", placeholder="Buscar")
+    br
+    .row
+      section.large-9.small-9.columns.cuadro
+        article
+          h2.subheader.text-center Eventos
+          .row
+            ul.data-orbit
+              li
+                img(src="#")
+                div.orbit-caption
+              li
+                h2 hola 2
+      aside.large-3.small-3.columns
+        .row
+          div.large-11.small-11.large-offset-1.small-offset-1.columns.cuadro

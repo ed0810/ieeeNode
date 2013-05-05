@@ -1,0 +1,41 @@
+body {
+	background-image: url("../images/grey-noise.png");
+	width:940px;
+	margin:0 auto;
+}
+.barra-nav{
+	background-color: #06a;
+	border-radius: 5px;
+}
+.barra-ul{
+	padding:5px;
+	margin:0;
+}
+.barra-ul li{
+	padding:5px 10px 5px 10px;
+	display: inline-block;
+}
+.barra-ul li a{
+	color:white;
+}
+.barra-ul li a:hover{
+	text-decoration: underline;
+}
+.brand{
+	font-weight: bold;
+}
+.brand:hover{
+	text-decoration: none !important;
+}
+.cuadro {
+	background-color: white;
+	border:1px solid #bbb;
+	min-height: 20px;
+  	border-radius: 5px;
+}
+.banner{
+	height: 100px;
+}
+form, input{
+	margin: 0 !important;
+}
